@@ -1,0 +1,164 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/bin/testCurveFitting"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"app/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 41,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 49,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 51,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=c++11 -g -Wall -fopenmp -std=c++11 -g -Wall -fopenmp -Wno-reorder  "
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "USE_OPENMP"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/usr/include/eigen3"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/usr/local/include/opencv"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/thirdparty/Sophus"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/pj/pj/vio_with_only_eigen/ch5/hw_course5"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "slam_course_backend::@e17dcb4e28158375c849"
+		}
+	],
+	"id" : "testCurveFitting::@5f5a17c01335469806cb",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-std=c++11 -g -Wall -fopenmp -std=c++11 -g -Wall -fopenmp -Wno-reorder",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-rdynamic",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../backend/libslam_course_backend.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "testCurveFitting",
+	"nameOnDisk" : "testCurveFitting",
+	"paths" : 
+	{
+		"build" : "app",
+		"source" : "app"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "app/CurveFitting.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

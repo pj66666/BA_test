@@ -1,0 +1,67 @@
+[
+{
+  "directory": "/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/build/frontend",
+  "command": "/usr/bin/c++  -DUSE_OPENMP -I/usr/include/eigen3 -I/usr/local/include/opencv -I/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/thirdparty/Sophus -I/home/pj/pj/vio_with_only_eigen/ch5/hw_course5  -std=c++11 -g -Wall -fopenmp -std=c++11 -g -Wall -fopenmp -Wno-reorder   -o CMakeFiles/slam_course_frontend.dir/frame.cc.o -c /home/pj/pj/vio_with_only_eigen/ch5/hw_course5/frontend/frame.cc",
+  "file": "/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/frontend/frame.cc"
+},
+{
+  "directory": "/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/build/backend",
+  "command": "/usr/bin/c++  -DUSE_OPENMP -I/usr/include/eigen3 -I/usr/local/include/opencv -I/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/thirdparty/Sophus -I/home/pj/pj/vio_with_only_eigen/ch5/hw_course5  -std=c++11 -g -Wall -fopenmp -std=c++11 -g -Wall -fopenmp -Wno-reorder   -o CMakeFiles/slam_course_backend.dir/vertex.cc.o -c /home/pj/pj/vio_with_only_eigen/ch5/hw_course5/backend/vertex.cc",
+  "file": "/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/backend/vertex.cc"
+},
+{
+  "directory": "/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/build/backend",
+  "command": "/usr/bin/c++  -DUSE_OPENMP -I/usr/include/eigen3 -I/usr/local/include/opencv -I/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/thirdparty/Sophus -I/home/pj/pj/vio_with_only_eigen/ch5/hw_course5  -std=c++11 -g -Wall -fopenmp -std=c++11 -g -Wall -fopenmp -Wno-reorder   -o CMakeFiles/slam_course_backend.dir/edge.cc.o -c /home/pj/pj/vio_with_only_eigen/ch5/hw_course5/backend/edge.cc",
+  "file": "/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/backend/edge.cc"
+},
+{
+  "directory": "/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/build/backend",
+  "command": "/usr/bin/c++  -DUSE_OPENMP -I/usr/include/eigen3 -I/usr/local/include/opencv -I/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/thirdparty/Sophus -I/home/pj/pj/vio_with_only_eigen/ch5/hw_course5  -std=c++11 -g -Wall -fopenmp -std=c++11 -g -Wall -fopenmp -Wno-reorder   -o CMakeFiles/slam_course_backend.dir/problem.cc.o -c /home/pj/pj/vio_with_only_eigen/ch5/hw_course5/backend/problem.cc",
+  "file": "/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/backend/problem.cc"
+},
+{
+  "directory": "/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/build/backend",
+  "command": "/usr/bin/c++  -DUSE_OPENMP -I/usr/include/eigen3 -I/usr/local/include/opencv -I/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/thirdparty/Sophus -I/home/pj/pj/vio_with_only_eigen/ch5/hw_course5  -std=c++11 -g -Wall -fopenmp -std=c++11 -g -Wall -fopenmp -Wno-reorder   -o CMakeFiles/slam_course_backend.dir/vertex_pose.cc.o -c /home/pj/pj/vio_with_only_eigen/ch5/hw_course5/backend/vertex_pose.cc",
+  "file": "/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/backend/vertex_pose.cc"
+},
+{
+  "directory": "/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/build/backend",
+  "command": "/usr/bin/c++  -DUSE_OPENMP -I/usr/include/eigen3 -I/usr/local/include/opencv -I/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/thirdparty/Sophus -I/home/pj/pj/vio_with_only_eigen/ch5/hw_course5  -std=c++11 -g -Wall -fopenmp -std=c++11 -g -Wall -fopenmp -Wno-reorder   -o CMakeFiles/slam_course_backend.dir/edge_reprojection.cc.o -c /home/pj/pj/vio_with_only_eigen/ch5/hw_course5/backend/edge_reprojection.cc",
+  "file": "/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/backend/edge_reprojection.cc"
+},
+{
+  "directory": "/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/build/backend",
+  "command": "/usr/bin/c++  -DUSE_OPENMP -I/usr/include/eigen3 -I/usr/local/include/opencv -I/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/thirdparty/Sophus -I/home/pj/pj/vio_with_only_eigen/ch5/hw_course5  -std=c++11 -g -Wall -fopenmp -std=c++11 -g -Wall -fopenmp -Wno-reorder   -o CMakeFiles/slam_course_backend.dir/edge_imu.cc.o -c /home/pj/pj/vio_with_only_eigen/ch5/hw_course5/backend/edge_imu.cc",
+  "file": "/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/backend/edge_imu.cc"
+},
+{
+  "directory": "/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/build/backend",
+  "command": "/usr/bin/c++  -DUSE_OPENMP -I/usr/include/eigen3 -I/usr/local/include/opencv -I/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/thirdparty/Sophus -I/home/pj/pj/vio_with_only_eigen/ch5/hw_course5  -std=c++11 -g -Wall -fopenmp -std=c++11 -g -Wall -fopenmp -Wno-reorder   -o CMakeFiles/slam_course_backend.dir/edge_prior.cpp.o -c /home/pj/pj/vio_with_only_eigen/ch5/hw_course5/backend/edge_prior.cpp",
+  "file": "/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/backend/edge_prior.cpp"
+},
+{
+  "directory": "/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/build/backend",
+  "command": "/usr/bin/c++  -DUSE_OPENMP -I/usr/include/eigen3 -I/usr/local/include/opencv -I/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/thirdparty/Sophus -I/home/pj/pj/vio_with_only_eigen/ch5/hw_course5  -std=c++11 -g -Wall -fopenmp -std=c++11 -g -Wall -fopenmp -Wno-reorder   -o CMakeFiles/slam_course_backend.dir/loss_function.cc.o -c /home/pj/pj/vio_with_only_eigen/ch5/hw_course5/backend/loss_function.cc",
+  "file": "/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/backend/loss_function.cc"
+},
+{
+  "directory": "/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/build/backend",
+  "command": "/usr/bin/c++  -DUSE_OPENMP -I/usr/include/eigen3 -I/usr/local/include/opencv -I/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/thirdparty/Sophus -I/home/pj/pj/vio_with_only_eigen/ch5/hw_course5  -std=c++11 -g -Wall -fopenmp -std=c++11 -g -Wall -fopenmp -Wno-reorder   -o CMakeFiles/slam_course_backend.dir/imu_integration.cc.o -c /home/pj/pj/vio_with_only_eigen/ch5/hw_course5/backend/imu_integration.cc",
+  "file": "/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/backend/imu_integration.cc"
+},
+{
+  "directory": "/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/build/app",
+  "command": "/usr/bin/c++  -DUSE_OPENMP -I/usr/include/eigen3 -I/usr/local/include/opencv -I/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/thirdparty/Sophus -I/home/pj/pj/vio_with_only_eigen/ch5/hw_course5  -std=c++11 -g -Wall -fopenmp -std=c++11 -g -Wall -fopenmp -Wno-reorder   -o CMakeFiles/TestBinaryBA.dir/TestBinaryBA.cpp.o -c /home/pj/pj/vio_with_only_eigen/ch5/hw_course5/app/TestBinaryBA.cpp",
+  "file": "/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/app/TestBinaryBA.cpp"
+},
+{
+  "directory": "/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/build/app",
+  "command": "/usr/bin/c++  -DUSE_OPENMP -I/usr/include/eigen3 -I/usr/local/include/opencv -I/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/thirdparty/Sophus -I/home/pj/pj/vio_with_only_eigen/ch5/hw_course5  -std=c++11 -g -Wall -fopenmp -std=c++11 -g -Wall -fopenmp -Wno-reorder   -o CMakeFiles/testCurveFitting.dir/CurveFitting.cpp.o -c /home/pj/pj/vio_with_only_eigen/ch5/hw_course5/app/CurveFitting.cpp",
+  "file": "/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/app/CurveFitting.cpp"
+},
+{
+  "directory": "/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/build/app",
+  "command": "/usr/bin/c++  -DUSE_OPENMP -I/usr/include/eigen3 -I/usr/local/include/opencv -I/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/thirdparty/Sophus -I/home/pj/pj/vio_with_only_eigen/ch5/hw_course5  -std=c++11 -g -Wall -fopenmp -std=c++11 -g -Wall -fopenmp -Wno-reorder   -o CMakeFiles/testMonoBA.dir/TestMonoBA.cpp.o -c /home/pj/pj/vio_with_only_eigen/ch5/hw_course5/app/TestMonoBA.cpp",
+  "file": "/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/app/TestMonoBA.cpp"
+}
+]

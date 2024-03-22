@@ -1,0 +1,152 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "frontend",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "frontend",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "backend",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "backend",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "utils",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "utils"
+				},
+				{
+					"build" : "app",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "app",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "slam_course",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "TestBinaryBA::@5f5a17c01335469806cb",
+					"jsonFile" : "target-TestBinaryBA-Debug-6caba0dde324e8b37843.json",
+					"name" : "TestBinaryBA",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "slam_course_backend::@e17dcb4e28158375c849",
+					"jsonFile" : "target-slam_course_backend-Debug-188f789b1677b04b305c.json",
+					"name" : "slam_course_backend",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "slam_course_frontend::@73e8a6b9a3e1c0d3809b",
+					"jsonFile" : "target-slam_course_frontend-Debug-7147ce68bc94eddb2b72.json",
+					"name" : "slam_course_frontend",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "testCurveFitting::@5f5a17c01335469806cb",
+					"jsonFile" : "target-testCurveFitting-Debug-4372d331d797b39164f2.json",
+					"name" : "testCurveFitting",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "testMonoBA::@5f5a17c01335469806cb",
+					"jsonFile" : "target-testMonoBA-Debug-925ec6b5002e9a9b9956.json",
+					"name" : "testMonoBA",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pj/pj/vio_with_only_eigen/ch5/hw_course5/build",
+		"source" : "/home/pj/pj/vio_with_only_eigen/ch5/hw_course5"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
