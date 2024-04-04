@@ -32,7 +32,7 @@ struct Frame {
  */
 void GetSimDataInWordFrame(vector<Frame> &cameraPoses, vector<Eigen::Vector3d> &points, vector<Eigen::Vector3d> &points_with_noise) {
     int featureNums = 20;  // 特征数目，假设每帧都能观测到所有的特征
-    int poseNums = 2;     // 相机数目
+    int poseNums = 3;     // 相机数目
 
     double radius = 8;
     for (int n = 0; n < poseNums; ++n) {
@@ -188,8 +188,13 @@ int main() {
         vPoint->setEstimate(l3d);       // 顶点（XYZ）测量值即带噪声的路标顶数据
         cout << "Initial estimate for point error" << i << ": " << l3d.transpose() - points[i].transpose() << endl;
         vPoint->setId(i);
-        vPoint->setFixed(false);
-        vPoint->setMarginalized(true); // 仿真，没必要边缘化，ORB里面设置了，认为一个点无所谓
+        if(i % 2 == 0){
+            vPoint->setFixed(true);
+        }else{
+            vPoint->setFixed(false);
+        }
+        // vPoint->setFixed(false);
+        vPoint->setMarginalized(true); 
         optimizer.addVertex(vPoint);
         // allvPoints.push_back(vPoint);   // 记录每一个顶点，后续分析误差
         allvPoints[i] = vPoint;

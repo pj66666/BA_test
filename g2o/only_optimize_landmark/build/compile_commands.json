@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/pj/pj/BA_test/g2o/only_optimize_landmark/build",
+  "command": "/usr/bin/c++  -DENABLE_SSE -DFMT_LOCALE -I/usr/include/eigen3 -isystem /usr/local/include/opencv  -std=c++11 -O2  -msse4 -O3 -DNDEBUG   -o CMakeFiles/sim_only_optimization_landmark.dir/sim_only_optimization_landmark.cpp.o -c /home/pj/pj/BA_test/g2o/only_optimize_landmark/sim_only_optimization_landmark.cpp",
+  "file": "/home/pj/pj/BA_test/g2o/only_optimize_landmark/sim_only_optimization_landmark.cpp"
+}
+]

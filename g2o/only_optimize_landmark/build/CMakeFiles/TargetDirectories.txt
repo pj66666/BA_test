@@ -1,0 +1,3 @@
+/home/pj/pj/BA_test/g2o/only_optimize_landmark/build/CMakeFiles/rebuild_cache.dir
+/home/pj/pj/BA_test/g2o/only_optimize_landmark/build/CMakeFiles/edit_cache.dir
+/home/pj/pj/BA_test/g2o/only_optimize_landmark/build/CMakeFiles/sim_only_optimization_landmark.dir
