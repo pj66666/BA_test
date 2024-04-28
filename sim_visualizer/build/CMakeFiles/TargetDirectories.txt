@@ -1,0 +1,3 @@
+/home/pj/pj/BA_test/sim_visualizer/build/CMakeFiles/edit_cache.dir
+/home/pj/pj/BA_test/sim_visualizer/build/CMakeFiles/rebuild_cache.dir
+/home/pj/pj/BA_test/sim_visualizer/build/CMakeFiles/sim_visualize.dir

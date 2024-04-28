@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/pj/pj/BA_test/sim_visualizer/build",
+  "command": "/usr/bin/c++  -DENABLE_SSE -DHAVE_EIGEN -DHAVE_GLEW -DHAVE_PYTHON -DPANGO_DEFAULT_WIN_URI=\\\"x11\\\" -D_LINUX_ -isystem /usr/include/eigen3  -std=c++14 -O2  -msse4 -O3 -DNDEBUG   -o CMakeFiles/sim_visualize.dir/sim_visualize.cpp.o -c /home/pj/pj/BA_test/sim_visualizer/sim_visualize.cpp",
+  "file": "/home/pj/pj/BA_test/sim_visualizer/sim_visualize.cpp"
+}
+]

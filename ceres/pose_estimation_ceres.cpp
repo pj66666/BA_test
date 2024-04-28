@@ -435,7 +435,6 @@ void bundleAdjustmentceres(const VecVector3d &points_3d,
     camera[2] = quaternion.z();
     camera[3] = quaternion.w();
 
-
    
     // 创建 Ceres Solver 的 Problem 对象
     ceres::Problem problem;

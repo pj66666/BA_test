@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/pj/pj/BA_test/ceres/build",
+  "command": "/usr/bin/c++  -DENABLE_SSE -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/usr/include/eigen3 -isystem /usr/local/include/opencv   -O2 -msse4 -g   -std=gnu++11 -o CMakeFiles/pose_estimation_ceres.dir/pose_estimation_ceres.cpp.o -c /home/pj/pj/BA_test/ceres/pose_estimation_ceres.cpp",
+  "file": "/home/pj/pj/BA_test/ceres/pose_estimation_ceres.cpp"
+},
+{
+  "directory": "/home/pj/pj/BA_test/ceres/build",
+  "command": "/usr/bin/c++  -DENABLE_SSE -DFMT_LOCALE -DGFLAGS_IS_A_DLL=0 -I/usr/include/eigen3 -isystem /usr/local/include/opencv   -O2 -msse4 -g   -std=gnu++11 -o CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.o -c /home/pj/pj/BA_test/ceres/ceresCurveFitting.cpp",
+  "file": "/home/pj/pj/BA_test/ceres/ceresCurveFitting.cpp"
+}
+]

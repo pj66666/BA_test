@@ -1,0 +1,4 @@
+/home/pj/pj/BA_test/ceres/build/CMakeFiles/rebuild_cache.dir
+/home/pj/pj/BA_test/ceres/build/CMakeFiles/edit_cache.dir
+/home/pj/pj/BA_test/ceres/build/CMakeFiles/pose_estimation_ceres.dir
+/home/pj/pj/BA_test/ceres/build/CMakeFiles/ceresCurveFitting.dir
